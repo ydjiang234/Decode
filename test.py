@@ -1,7 +1,7 @@
 from DecodeUser import usercode
 
 uc = usercode()
-a = '1'
+a = ''
 b = uc.encode(a)
 c = uc.decode(b)
 print(b)
